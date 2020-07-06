@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+    <item
+        android:id="@+id/nav_screen_time"
+        android:icon="@drawable/ic_smartphone"
+        android:title="ScreenTime" />
+
+    <item
+        android:id="@+id/nav_note_me"
+        android:icon="@drawable/ic_notes"
+        android:title="NoteMe" />
+        <!--
+        <item
+            android:id="@+id/nav_about_me"
+            android:icon="@drawable/ic_about_me"
+            android:title="ABOUT ME" />-->
+
+
+
+</menu>

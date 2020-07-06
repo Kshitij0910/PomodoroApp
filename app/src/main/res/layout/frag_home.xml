@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="circles.json"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/screen_time"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="screen_time.json"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/screen_time_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/screen_time"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:padding="10dp"
+        android:text="Reduce Screen Time"
+        android:textSize="20sp"
+        app:fontFamily="@font/aladin"
+        android:textColor="#1365AE"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
